@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SBPulseView: UIView {
+class KSPulseView: UIView {
     var radius: CGFloat!
     var duration: NSTimeInterval!
     var interval: NSTimeInterval!
