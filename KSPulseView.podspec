@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '8.0'
-s.name = "KSPulsingView"
+s.name = "KSPulseView"
 s.summary = "Simple pulsing view made in Swift."
 s.requires_arc = true
 
@@ -26,8 +26,8 @@ s.source = { :git => "https://github.com/klaasscho1/KSPulseView.git", :tag => s.
 s.framework = "UIKit"
 
 # 8
-s.source_files = "KSPulsingView/**/*.{swift}"
+s.source_files = "KSPulseView/**/*.{swift}"
 
 # 9
-s.resources = "KSPulsingView/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "KSPulseView/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
